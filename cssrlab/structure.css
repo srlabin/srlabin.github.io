@@ -1149,7 +1149,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 #Top_bar #logo img {
 	vertical-align: middle;
-	max-height: 100%
+	max-height: 70%
 }
 #Top_bar #logo img.logo-sticky, #Top_bar #logo img.logo-mobile, #Top_bar #logo img.logo-mobile-sticky {
 	display: none
