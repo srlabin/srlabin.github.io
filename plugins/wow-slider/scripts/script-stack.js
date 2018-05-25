@@ -13,8 +13,8 @@ jQuery("#wowslider-container1").wowSlider( {
     effect:"stack", 
 	duration:20*100, // change effect transition time
 	delay:20*100, // change delay on each slide
-	width:1080, 
-	height:570, 
+	width:1600, 
+	height:800, 
 	autoPlay:true, // autoplay slides on load
 	playPause:false, // show a play & pause button
 	stopOnHover:false, 
