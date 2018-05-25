@@ -2,3 +2,21 @@ p, h5
 {
     line-height: 2.5 !important;
 }
+
+h2, h4
+{
+    line-height: 1.5 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .hover_color_wrapper {
+        padding: 30px 0 30px 3% !important;
+    }
+    .column_attr {
+        padding: 20px 0 0 0 !important;
+    }
+       
+    h4 {
+    font-size: 20px !important;
+        }
+}
