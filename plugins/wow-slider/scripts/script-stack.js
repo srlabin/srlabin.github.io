@@ -22,7 +22,7 @@ jQuery("#wowslider-container1").wowSlider( {
 	bullets:0, 
 	caption:false, // use a caption on slides
 	controls:true, // use left, right arrows
-	fullScreen:true, // show a fullscreen button
+	fullScreen:false, // show a fullscreen button
 	
 	responsive:3,
 	gestures:2, 
