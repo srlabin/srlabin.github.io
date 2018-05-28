@@ -108,7 +108,12 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_image ">
                                             <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/ssea_b_RFP.png" alt="ssea" width="1080" height="579" />
+                                                <div class="image_wrapper">
+                                                    <img class="scale-with-grid arjav" src="images/ssea_b_RFP.png" alt="ssea" width="1080" height="579" />
+                                                    <img class="scale-with-grid arjav" src="images/sox_2c_RFP.png" alt="ssea" width="1080" height="579" />
+                                                    <img class="scale-with-grid arjav" src="images/tra_80_1_RFP.png" alt="ssea" width="1080" height="579" />
+                                                    <img class="scale-with-grid arjav" src="images/sox_2d_RFP.png" alt="ssea" width="1080" height="579" />
+                                                    <img class="scale-with-grid arjav" src="images/4-GreenLight.png" alt="ssea" width="1080" height="579" />
                                                 </div>
                                             </div>
                                         </div>
@@ -342,6 +347,23 @@
             }
         });
     </script>
+    
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("arjav");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
     
     
 
