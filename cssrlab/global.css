@@ -1840,7 +1840,8 @@ a:hover.tp-button.lightgrey {
 	content: '\e95f'
 }
 .icon-menu-fine:before {
-	content: '\e960'
+/*	content: '\e960'*/
+    content: '\e813'
 }
 .icon-bag-fine:before {
 	content: '\e961'
@@ -1849,7 +1850,8 @@ a:hover.tp-button.lightgrey {
 	content: '\e962'
 }
 .icon-cancel-fine:before {
-	content: '\e963'
+/*	content: '\e963'*/
+    content: '\e815'
 }
 .icon-plus-fine:before {
 	content: '\e964'
