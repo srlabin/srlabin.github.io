@@ -20,3 +20,7 @@ h2, h4
     font-size: 20px !important;
         }
 }
+
+.logo-mobile-sticky scale-with-grid{
+    width: auto !important;
+}
